@@ -19,8 +19,8 @@ When doing exercises on LeetCode, I encountered several difficulties:
 So I tried to develop a little tool to make it that I can write my code in a single file, with the input written locally only once, the testing only needing running a script.
 ## Usage
 This part is based on Pycharm. Other IDEs should be able to do similar things.
-1. Setting up a Python run/debug configuration.
-2. Setting an environment variable whose name is `TestDataPath` and whose value is the path of a local file, in which you will paste the test data. This can be done in system settings or within Pycharm: Run -> Edit Configurations... -> Configuration -> Environment Variables.
+1. ~~Setting up a Python run/debug configuration.~~
+2. ~~Setting an environment variable whose name is `TestDataPath` and whose value is the path of a local file, in which you will paste the test data. This can be done in system settings or within Pycharm: Run -> Edit Configurations... -> Configuration -> Environment Variables.~~I have uploaded the configuration as a `.xml` file, so no need to set it by yourself now.
 3. Just write and test your code and debug in `answer.py` in this project. Feel free to select all, copy and paste between LeetCode's template and this file.
 4. When clicked, the input sample LeetCode gives would select all lines with quotation marks and carriage returns automatically. Just copy it and paste it in your test data file. The script will handle them properly.
 5. When submitting the answer, you can just `Ctrl`+`A`, `Ctrl`+`C` and `Ctrl`+`V`.
