@@ -1,7 +1,7 @@
 # LeetCode Local Test Tool
 This little tool assists to write and test your code locally when you are solving problems with Python on [LeetCode](leetcode.com).
 
-中文版说明在[这里](github.com/flowingwings/leetcode-localtest/blob/main/说明.md)
+中文版说明在[这里](github.com/flowingwings/leetcode-localtest/blob/main/说明.md)。
 
 ## Background
 
