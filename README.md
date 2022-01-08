@@ -1,7 +1,7 @@
 # LeetCode Local Test Tool
 This little tool assists to write and test your code locally when you are solving problems with Python on [LeetCode](leetcode.com).
 
-中文版说明在[这里](github.com/flowingwings/leetcode-localtest/blob/main/说明.md)。
+中文版说明在[这里](github.com/flowingwings/leetcode-localtest/blob/master/说明.md)。
 
 ## Background
 
@@ -20,7 +20,8 @@ So I tried to develop a little tool to make it that I can write my code in a sin
 ## Usage
 This part is based on Pycharm. Other IDEs should be able to do similar things.
 1. ~~Setting up a Python run/debug configuration.~~
-2. ~~Setting an environment variable whose name is `TestDataPath` and whose value is the path of a local file, in which you will paste the test data. This can be done in system settings or within Pycharm: Run -> Edit Configurations... -> Configuration -> Environment Variables.~~I have uploaded the configuration as a `.xml` file, so no need to set it by yourself now.
+2. ~~Setting an environment variable whose name is `TestDataPath` and whose value is the path of a local file, in which you will paste the test data. This can be done in system settings or within Pycharm: Run -> Edit Configurations... -> Configuration -> Environment Variables.~~
+I have already uploaded the configuration as a `.xml` file, so no need to set it by yourself now. You only need to use the `LeetCodeTest` configuration.
 3. Just write and test your code and debug in `answer.py` in this project. Feel free to select all, copy and paste between LeetCode's template and this file.
 4. When clicked, the input sample LeetCode gives would select all lines with quotation marks and carriage returns automatically. Just copy it and paste it in your test data file. The script will handle them properly.
 5. When submitting the answer, you can just `Ctrl`+`A`, `Ctrl`+`C` and `Ctrl`+`V`.
